@@ -1,5 +1,5 @@
 <?php
-    $con=mysqli_connect("localhost","root","","loginsystem");
+    $con=mysqli_connect("localhost","root","15July@2002","loginsystem");
     
     if(isset($_POST['login_submit'])){
         $username=$_POST['username'];
